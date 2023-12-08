@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+}
+html {
+    background-color: rgba(8, 8, 12);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 21px;
+}
+
+.header_content {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 200px;
+    max-width: 1920px;
+    width: 100%;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+nav a {
+    margin-right: 98px;
+    color: #fff;
+}
+nav a:last-child {
+    margin-right: 0;
+}
+.active_nav {
+    color: rgba(30, 225, 179);
+}
+#menu {
+    display: none;
+}
+
+.enter {
+    display: flex;
+    width: auto;
+    align-items: center;
+    font-weight: 900;
+}
+.login {
+    margin-right: 32px;
+    color: #fff;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 225, 179);
+    color: black !important;
+    width: 103px;
+    height: 42px;
+    border-radius: 3px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.main_wrapper {
+    justify-content: space-between;
+    padding: 0 150px;
+    max-width: 1820px;
+    width: 100%;
+    margin-left: -150px;
+    display: flex;
+}
+
+.main_content {
+    max-width: 750px;
+    margin-left: 100px;
+}
+
+.main_img img {
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.line {
+    width: 245px;
+    height: 3px;
+    background-color: rgba(81, 81, 81);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 115px;
+}
+.subline {
+    width: 157px;
+    height: 3px;
+    background-color: rgba(30, 225, 179);
+    border-radius: 100px;
+}
+
+section {
+    display: flex;
+
+}
+
+.sec_img {
+    height: 104px;
+    width: 104px;
+    background-color: #fff;
+    border-radius: 100px;
+    flex-shrink: 0;
+    margin-bottom: 42px;
+    margin-right: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.sec_content p {
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #fff;
+    display: flex;
+}
+
